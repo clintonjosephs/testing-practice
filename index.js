@@ -3,7 +3,7 @@ const stringLength = (string) => {
   if (strLength > 0 && strLength <= 10) {
     return strLength;
   } else {
-    throw "Error: String should not have atleast 1 chars and maximum of 10 chars";
+    throw "Error: String should have atleast 1 char and maximum of 10 chars";
   }
 };
 
