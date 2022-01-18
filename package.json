@@ -1,0 +1,25 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "Unit test practice using JEST",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clintonjosephs/testing-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clintonjosephs/testing-practice/issues"
+  },
+  "homepage": "https://github.com/clintonjosephs/testing-practice#readme",
+  "dependencies": {
+    "jest": "^27.4.7",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}
